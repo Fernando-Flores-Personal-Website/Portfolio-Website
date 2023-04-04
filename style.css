@@ -1,5 +1,11 @@
-body{
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
 }
 
 header {
@@ -11,17 +17,20 @@ header {
     background: #333;
 }
 
+span a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+
 .name{
     float: left;
     color: white;
     padding: 14px 16px;
 }
-
-.links {
-    float: right;
-}
-
 ul {
+    float: right;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -29,25 +38,18 @@ ul {
     background-color: #333;
   }
   
-  li {
+li {
     float: left;
   }
-  
-  span a {
-    display: block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-  }
 
-  li a {
+li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
-  li a:hover {
+li a:hover {
     background-color: #111;
   }
 
