@@ -1,0 +1,59 @@
+
+body{
+    margin: 0;
+}
+
+header {
+    font-size: 2rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 0.5em 1em;
+}
+
+header {
+    background: #333;
+}
+
+.name{
+    float: left;
+    color: white;
+    padding: 14px 16px;
+}
+
+.links {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  span a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  li a:hover {
+    background-color: #111;
+  }
+
