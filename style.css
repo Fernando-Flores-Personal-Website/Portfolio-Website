@@ -40,6 +40,13 @@ ul {
     float: left;
   }
   
+  span a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+
   li a {
     display: block;
     color: white;
@@ -48,7 +55,7 @@ ul {
     text-decoration: none;
   }
   
-  /* Change the link color to #111 (black) on hover */
+
   li a:hover {
     background-color: #111;
   }
