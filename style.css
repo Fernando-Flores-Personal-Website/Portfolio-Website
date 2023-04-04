@@ -1,3 +1,33 @@
+body{
+    margin: 0;
+}
+
+header {
+    font-size: 2rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 0.5em 1em;
+    box-shadow: 0 2px 4px -2px black;
+}
+
+header{
+    display: block;
+}
+header {
+    background: #333;
+}
+
+.name{
+    float: left;
+    color: white;
+    padding: 14px 16px;
+}
+
+.links {
+    float: right;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
