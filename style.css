@@ -1,17 +1,13 @@
-
 body{
     margin: 0;
 }
 
 header {
-    font-size: 2rem;
+    font-size: 1.5rem;
     position: fixed;
     left: 0;
     right: 0;
     padding: 0.5em 1em;
-}
-
-header {
     background: #333;
 }
 
