@@ -4,13 +4,16 @@
     box-sizing: border-box;
 }
 
+header{
+    display: block;
+}
 body{
     position: relative;
+    display: block;
 }
-
 header {
     font-size: 1.5rem;
-    position:absolute;
+    position: fixed;
     left: 0;
     right: 0;
     padding: 0.5em 1em;
@@ -52,4 +55,18 @@ li a {
 li a:hover {
     background-color: #111;
   }
+
+  .main {
+    height: calc(100vh - 55px);
+}
+
+section{
+    display: block;
+}
+.center-content {
+    height: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
 
