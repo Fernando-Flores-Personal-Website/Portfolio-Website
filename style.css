@@ -145,9 +145,16 @@ input::placeholder {
   width: 100%;
 }
 
+.gradient-blue-bg img {
+  margin: 0;
+  width: 400px;
+}
+
 .gradient-blue-bg {
   background: linear-gradient(99.85deg, #BAD5FF 0%, #6487BF 100%);
 }
+
+
 
 .gradient-blue-bg img {
   margin-bottom: -5px;
@@ -290,7 +297,7 @@ input::placeholder {
     justify-content: center;
     align-items: center;
   }
-  .trainer-text {
+  .me-text {
     text-align: left;
     width: 30%;
     margin-left: 40px;
