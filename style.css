@@ -125,14 +125,13 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
-.stay-up-to-date input[type="text"]{
+.stay-up-to-date input[type="email"]{
   width: 55%;
   border: none;
   border-radius: 5px;
   padding: 10px;
   font-weight: 400;
   font-family: Hellix;
-  /* background: url(./images/send-icon.png) white 95% 50% no-repeat; */
 }
 
 input::placeholder {
