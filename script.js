@@ -6,7 +6,7 @@ const scriptURL = 'https://httpbin.org/post'
 
 form.addEventListener('submit', e => {
   submitButton.disabled = true
-  e.preventDefault()
+//   e.preventDefault()
   let requestBody = new FormData(form)
   fetch(scriptURL, { method: 'POST', body: requestBody})
     .then(response => {
